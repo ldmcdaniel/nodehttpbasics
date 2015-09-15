@@ -25,7 +25,5 @@ describe('log', function () {
     var goal2 = '[' + date + '] "\u001b[36mPOST\u001b[39m \u001b[36m/my/form\u001b[39m" "curl/7.43.0"';
     expect(log(req1)).to.equal(goal1);
     expect(log(req2)).to.equal(goal2);
-
-
   });
 });
